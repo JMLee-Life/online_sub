@@ -1,0 +1,12 @@
+div {
+  width: 500px;
+  color: yellowgreen;
+  border: 1px solid red;
+  font-size: 100px;
+  display: inline-block;
+  text-align: center;
+}
+
+.box div:nth-child(2n) {
+  color: red;
+}
